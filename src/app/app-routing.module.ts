@@ -16,6 +16,7 @@ const routes: Routes = [
   {path:'topimdb',component:TopimdbComponent},
   {path:'contactus',component:ContactusComponent},
   {path:'',redirectTo:'/home',pathMatch:'full'},
+  { path: 'admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule) },
   {path:'**',component:PagenotfoundComponent}
 ];
 

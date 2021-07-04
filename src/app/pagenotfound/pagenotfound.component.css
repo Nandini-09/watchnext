@@ -1,0 +1,13 @@
+#background{
+    background-image: url('https://images.wallpaperscraft.com/image/road_trees_bw_126814_4098x2841.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#txt{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 5rem;
+}
